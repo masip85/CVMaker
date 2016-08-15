@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/cvActionModesCollapsableItem"
+        android:actionLayout="@layout/action_bar_collapsable_element"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/ic_action_download"
+        android:titleCondensed="generarCV"/>
+
+</menu>

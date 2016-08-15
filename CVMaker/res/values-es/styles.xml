@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- <style name="AppTheme" parent="android:Theme.Light" /> -->
+
+
+    <!-- Variation on the Holo Light theme that styles the Action Bar -->
+    <style name="CVMakerTheme" parent="style/Theme.Sherlock.Light"></style>
+
+    <style name="LayoutMargenPantallaTop">
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+</resources>

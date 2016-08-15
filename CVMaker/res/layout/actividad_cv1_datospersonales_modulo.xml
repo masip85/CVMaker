@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv1LayoutMain"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/cv1LayoutNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/cv1TextViewNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="@string/cv1Nombre"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textColor="@android:color/primary_text_light" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="3dip"
+                android:background="#FF909090" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/cv1EditNombre"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/cv1ImageViewLapiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/ic_content_edit" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/cv1TextViewFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cv1Foto"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/primary_text_light" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dip"
+            android:background="#FF909090" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/cv1ImageViewFoto"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@+id/cv1LayoutNombre"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/cv1BotonTomarFoto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignTop="@+id/cv1ImageViewFoto"
+                android:layout_toRightOf="@+id/cv1ImageViewFoto"
+                android:background="@drawable/ic_content_camera"
+                android:onClick="lanzarcv1TomarFoto" />
+
+            <Button
+                android:id="@+id/cv1BotonCargarFoto"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignBottom="@+id/cv1ImageViewFoto"
+                android:layout_toRightOf="@+id/cv1ImageViewFoto"
+                android:background="@drawable/ic_content_folder"
+                android:onClick="lanzarcv1CargarFoto" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/cv1TextViewFechaNacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cv1FechaNacimiento"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/primary_text_light" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dip"
+            android:background="#FF909090" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cv1LayoutFechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/cv1TextViewFechaNacimiento2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/secondary_text_light" />
+
+        <Button
+            android:id="@+id/cv1ButtonDatePicker"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_action_calendar"
+            android:onClick="lanzarDatePickerDialogo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/cv1TextViewDatosContacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cv1DatosContacto"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/primary_text_light" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dip"
+            android:background="#FF909090" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cv1LayoutEMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/cv1ImageViewMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_content_email" />
+
+        <EditText
+            android:id="@+id/cv1EditEmail"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+        <ImageView
+            android:id="@+id/cv1ImageViewLapiz2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_content_edit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cv1LayoutTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cv1LayoutEMail"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/cv1ImageViewPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_content_phone" />
+
+        <EditText
+            android:id="@+id/cv1EditTelefono"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:maxLines="1" />
+
+        <ImageView
+            android:id="@+id/cv1ImageViewLapiz3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_content_edit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cv1LayoutLugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cv1LayoutTelefono"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/cv1ImageViewLugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_content_place" />
+
+        <EditText
+            android:id="@+id/cv1EditLocalidad"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+
+        <ImageView
+            android:id="@+id/cv1ImageViewLapiz4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_content_edit" />
+    </LinearLayout>
+
+</LinearLayout>

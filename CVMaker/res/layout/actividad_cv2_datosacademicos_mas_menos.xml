@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv2LayoutMas"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:tag="055" >
+
+    <Button
+        android:id="@+id/cv2BotonMas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:onClick="lanzarcvMas"
+        android:tag="066"
+        android:text="@string/cvBotonMas" />
+
+    <Button
+        android:id="@+id/cv2BotonMenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="lanzarcvMenos"
+        android:text="@string/cvBotonMenos"
+        android:visibility="invisible" />
+
+ 
+
+</RelativeLayout>

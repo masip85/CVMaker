@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv2LayoutModulo"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/cv2TextViewEstudios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cv2Estudios"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/primary_text_light" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dip"
+            android:background="#FF909090" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/cv2EditEstudios"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/cv2ImageViewLapiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_content_edit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cv2TextViewPeriodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cv2Periodo"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/primary_text_light" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dip"
+            android:background="#FF909090" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cv2Periodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/cv2SpinnerAnoInicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp" />
+
+        <Spinner
+            android:id="@+id/cv2SpinnerAnoFin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cv2TextViewCentro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cv2Centro"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/primary_text_light" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dip"
+            android:background="#FF909090" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/cv2EditCentro"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/cv2ImageViewLapiz1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_content_edit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cv2TextViewLocalidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/cv2Localidad"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/primary_text_light" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="3dip"
+            android:background="#FF909090" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/cv2EditLocalidad"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/cv2ImageViewLapiz2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_content_edit" />
+    </LinearLayout>
+
+</LinearLayout>

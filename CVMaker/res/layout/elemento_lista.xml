@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    
+    <ImageView android:id="@+id/fotocv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_launcher"/>
+    <TextView 
+        android:id="@+id/autorcv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/fotocv"
+        android:layout_alignParentTop="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:singleLine="true"/>
+    <TextView 
+        android:id="@+id/nombrepdf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/fotocv"
+        android:layout_below="@id/autorcv"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"/>
+    
+
+</RelativeLayout>

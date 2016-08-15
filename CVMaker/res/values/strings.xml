@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MUPDF -->
+    <string name="app_name">CVMaker</string>
+    <string name="no_media_warning">Storage Media not present</string>
+    <string name="no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
+    <string name="open_failed">Unable to open document</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_backwards">Search backwards</string>
+    <string name="search_forwards">Search forwards</string>
+    <string name="search_document">Search document</string>
+    <string name="compartir_pdf">Share PDF</string>
+    <string name="subir_dropbox">Upload to Dropbox</string>
+    <string name="picker_title">CVMaker</string>
+    <string name="outline_title">Table of Contents</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="text_not_found">Text not found</string>
+    <string name="searching_">Searching...</string>
+    <string name="link_control">Link highlighting and enabling</string>
+    <string name="sharevia">Share via</string>
+
+    <!-- CVMaker -->
+    <string name="txtAceptar">Dismiss</string>
+    <string name="generarCV">Create CV</string>
+    <string name="Abrir">Open</string>
+    <string name="Nuevo">New</string>
+    <string name="Editar">Edit</string>
+    <string name="EjemploCV">CV Example</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Actividad_principal</string>
+    <string name="cvBotonMas">More</string>
+    <string name="cvBotonMenos">Less</string>
+    <string name="cvAnterior">-Anterior</string>
+    <string name="cvSiguiente">Siguiente-</string>
+    <string name="cv1Titulo">Personal information</string>
+    <string name="cv1FechaNacimiento">Date of birth: </string>
+    <string name="cv1Email">Email: </string>
+    <string name="cv1Nombre">Name: </string>
+    <string name="cv1Telefono">Phone: </string>
+    <string name="cv1Localidad">Place: </string>
+    <string name="cv2Titulo">Academic data</string>
+    <string name="cv2Periodo">Año de inicio - Año de finalización  </string>
+    <string name="cv2Centro">Study center: </string>
+    <string name="cv2Estudios">Schooling: </string>
+    <string name="cv3Titulo">Experience</string>
+    <string name="cv3Centro">Workplace: </string>
+    <string name="cv3Trabajo">Ocuppation: </string>
+    <string name="cv3Descripcion">Description: </string>
+    <string name="cv4Titulo">Languages </string>
+    <string name="cv4Idioma">Languages:  </string>
+    <string name="cv4NivelHablado">Speech level:  </string>
+    <string name="cv4NivelEscrito">Write level:  </string>
+    <string name="cv4NivelLectura">Read level:  </string>
+    <string name="cv5Titulo">General </string>
+    <string name="cv5_1">Team work experience </string>
+    <string name="cv5_2">Availability to travel </string>
+    <string name="cv5_3">Own vehicle availability </string>
+    <string name="cv5_4">Willingness to travel </string>
+    <string name="cv6Titulo">Generic</string>
+    <string name="cv6_TituloCampo">Title</string>
+    <string name="cv6_SubtituloCampo">Subtitle</string>
+    <string name="cv6_Campo">Description</string>
+    <string name="cv6_max"></string>
+    
+    
+<!--     Dropbox -->
+    <string name="subirDropbox">Uploading...</string>
+    
+<!--     Meses -->
+    <string name="enero">January</string>
+    <string name="febrero">February</string>
+    <string name="marzo">March</string>
+    <string name="abril">April</string>
+    <string name="mayo">May</string>
+    <string name="junio">June</string>
+    <string name="julio">July</string>
+    <string name="agosto">August</string>
+    <string name="septiembre">September</string>
+    <string name="octubre">October</string>
+    <string name="noviembre">November</string>
+    <string name="diciembre">December</string>
+    
+<!--     iText -->
+    <string name="errItext">Unable create PDF</string>
+    <string name="habilidadesGenerales">General skills</string>
+    <string name="hablaIdioma">Speech level</string>
+    <string name="leeIdioma">Read</string>
+    <string name="escribeIdioma">write</string>
+    <string name="idiomas">Languages</string>
+    <string name="experienciaLaboral">Experience</string>
+    <string name="datosAcademicos">Academic data</string>
+    <string name="nombre">Name:</string>
+    <string name="fechaNacimiento">Date of birth:</string>
+    <string name="telefono">Phone:</string>
+    <string name="residencia">Place:</string>
+    <string name="email">Email:</string>
+    <string name="datosPersonales">Personal data</string>
+    
+    <string name="cv4regular">Moderate</string>
+    <string name="cv4bueno">Well</string>
+    <string name="cv4muyBueno">Very well</string>
+    <string name="cv4excelente">Excellent</string>
+    
+<!-- Principal -->
+    <string name="cvperdido">CV not found...</string>
+    
+    <string name="cv1Foto">Photo </string>
+    <string name="cv1DatosContacto">Contact </string>
+    <string name="cv2Localidad">Place: </string>
+    <string name="cv3Empresa">Company: </string>
+
+</resources>
