@@ -1,5 +1,5 @@
 # CVMaker
-Software developed by Jose Luis Beltran & Vicente Masip Moret at in 2012. This is the fast university contest version. By now...
+Software developed by Jose Luis Beltran & Vicente Masip Moret in 2012. This is the university fast contest version. By now...
 
 Gratitude:
 
